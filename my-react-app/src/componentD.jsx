@@ -1,11 +1,10 @@
-import React, {useContext} from 'react';
-import { UserContext } from './componentA';
-
+import React, {useContext} from "react";
+import { UserContext } from "./componentA";
 function ComponentD(){
-    const user =useContext(UserContext);
+    const user=useContext(UserContext);
     return(<div className="box">
         <h1>Component D</h1>
-        <h2>{`Bye ${user}`}</h2>
+        <h2>{`Bye ${user} `}</h2>
         
     </div>)
 }
