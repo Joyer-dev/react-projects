@@ -1,11 +1,4 @@
-/*import Card from './card.jsx';
-
-function App() {
-  return(
-    <Card/>
-  );
-}
-  
+/*
  import Button from './button/button.jsx';
 function App(){
   return(
@@ -33,6 +26,8 @@ function App(){
     </>
   );
 }*/
+import React from 'react';
+import Card from './card.jsx';
 import Button from './Button.jsx'
 import ProfilePic from './profilePic.jsx';
 import Mycomponent from './Mycomponent.jsx';
@@ -52,8 +47,8 @@ import StopWatch from './Stopwatch.jsx';
 function App(){
   return(
 
-  
-    <TodoList/>
+   <ComponentA/>
+   
   );
  
 }
